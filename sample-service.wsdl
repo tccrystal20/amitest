@@ -35,7 +35,7 @@
     </wsdl:types>
     <wsdl:message name="loginRequest">
         <wsdl:part name="username" type="xsd:string"/>
-        <wsdl:part name="password" type="xsd:string"/>
+        <wsdl:part name="new" type="xsd:string"/>
     </wsdl:message>
     <wsdl:message name="loginResponse">
         <wsdl:part name="sessionid" type="xsd:string"/>
